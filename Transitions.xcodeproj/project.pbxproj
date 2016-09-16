@@ -12,26 +12,12 @@
 		443E65F21D8988500069CE43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443E65F01D8988500069CE43 /* Main.storyboard */; };
 		443E65F41D8988510069CE43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443E65F31D8988510069CE43 /* Assets.xcassets */; };
 		443E65F71D8988510069CE43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443E65F51D8988510069CE43 /* LaunchScreen.storyboard */; };
-		443E66021D8988510069CE43 /* TransitionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E66011D8988510069CE43 /* TransitionsTests.swift */; };
-		443E660D1D8988510069CE43 /* TransitionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E660C1D8988510069CE43 /* TransitionsUITests.swift */; };
+		443E66201D898B420069CE43 /* FBHF9668.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 443E661C1D898B420069CE43 /* FBHF9668.mp4 */; };
+		443E66211D898B420069CE43 /* JKUO2477.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 443E661D1D898B420069CE43 /* JKUO2477.mp4 */; };
+		443E66221D898B420069CE43 /* KDLG4737.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 443E661E1D898B420069CE43 /* KDLG4737.mp4 */; };
+		443E66231D898B420069CE43 /* OAYF8471.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 443E661F1D898B420069CE43 /* OAYF8471.mp4 */; };
+		448A476B1D8C245500AF1F43 /* movietransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A476A1D8C245500AF1F43 /* movietransitions.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		443E65FE1D8988510069CE43 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 443E65E11D8988500069CE43 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 443E65E81D8988500069CE43;
-			remoteInfo = Transitions;
-		};
-		443E66091D8988510069CE43 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 443E65E11D8988500069CE43 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 443E65E81D8988500069CE43;
-			remoteInfo = Transitions;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		443E65E91D8988500069CE43 /* Transitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,30 +27,19 @@
 		443E65F31D8988510069CE43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		443E65F61D8988510069CE43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		443E65F81D8988510069CE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		443E65FD1D8988510069CE43 /* TransitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		443E66011D8988510069CE43 /* TransitionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsTests.swift; sourceTree = "<group>"; };
 		443E66031D8988510069CE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		443E66081D8988510069CE43 /* TransitionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		443E660C1D8988510069CE43 /* TransitionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsUITests.swift; sourceTree = "<group>"; };
 		443E660E1D8988510069CE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443E661C1D898B420069CE43 /* FBHF9668.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = FBHF9668.mp4; path = ../../../Pictures/FBHF9668.mp4; sourceTree = "<group>"; };
+		443E661D1D898B420069CE43 /* JKUO2477.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = JKUO2477.mp4; path = ../../../Pictures/JKUO2477.mp4; sourceTree = "<group>"; };
+		443E661E1D898B420069CE43 /* KDLG4737.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = KDLG4737.mp4; path = ../../../Pictures/KDLG4737.mp4; sourceTree = "<group>"; };
+		443E661F1D898B420069CE43 /* OAYF8471.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = OAYF8471.mp4; path = ../../../Pictures/OAYF8471.mp4; sourceTree = "<group>"; };
+		448A476A1D8C245500AF1F43 /* movietransitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = movietransitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		443E65E61D8988500069CE43 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		443E65FA1D8988510069CE43 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		443E66051D8988510069CE43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,8 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				443E65E91D8988500069CE43 /* Transitions.app */,
-				443E65FD1D8988510069CE43 /* TransitionsTests.xctest */,
-				443E66081D8988510069CE43 /* TransitionsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +70,11 @@
 		443E65EB1D8988500069CE43 /* Transitions */ = {
 			isa = PBXGroup;
 			children = (
+				443E661C1D898B420069CE43 /* FBHF9668.mp4 */,
+				443E661D1D898B420069CE43 /* JKUO2477.mp4 */,
+				443E661E1D898B420069CE43 /* KDLG4737.mp4 */,
+				443E661F1D898B420069CE43 /* OAYF8471.mp4 */,
+				448A476A1D8C245500AF1F43 /* movietransitions.swift */,
 				443E65EC1D8988500069CE43 /* AppDelegate.swift */,
 				443E65EE1D8988500069CE43 /* ViewController.swift */,
 				443E65F01D8988500069CE43 /* Main.storyboard */,
@@ -145,62 +123,19 @@
 			productReference = 443E65E91D8988500069CE43 /* Transitions.app */;
 			productType = "com.apple.product-type.application";
 		};
-		443E65FC1D8988510069CE43 /* TransitionsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 443E66141D8988510069CE43 /* Build configuration list for PBXNativeTarget "TransitionsTests" */;
-			buildPhases = (
-				443E65F91D8988510069CE43 /* Sources */,
-				443E65FA1D8988510069CE43 /* Frameworks */,
-				443E65FB1D8988510069CE43 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				443E65FF1D8988510069CE43 /* PBXTargetDependency */,
-			);
-			name = TransitionsTests;
-			productName = TransitionsTests;
-			productReference = 443E65FD1D8988510069CE43 /* TransitionsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		443E66071D8988510069CE43 /* TransitionsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 443E66171D8988510069CE43 /* Build configuration list for PBXNativeTarget "TransitionsUITests" */;
-			buildPhases = (
-				443E66041D8988510069CE43 /* Sources */,
-				443E66051D8988510069CE43 /* Frameworks */,
-				443E66061D8988510069CE43 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				443E660A1D8988510069CE43 /* PBXTargetDependency */,
-			);
-			name = TransitionsUITests;
-			productName = TransitionsUITests;
-			productReference = 443E66081D8988510069CE43 /* TransitionsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		443E65E11D8988500069CE43 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "German Pereyra";
 				TargetAttributes = {
 					443E65E81D8988500069CE43 = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					443E65FC1D8988510069CE43 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 443E65E81D8988500069CE43;
-					};
-					443E66071D8988510069CE43 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 443E65E81D8988500069CE43;
 					};
 				};
 			};
@@ -218,8 +153,6 @@
 			projectRoot = "";
 			targets = (
 				443E65E81D8988500069CE43 /* Transitions */,
-				443E65FC1D8988510069CE43 /* TransitionsTests */,
-				443E66071D8988510069CE43 /* TransitionsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,21 +164,11 @@
 			files = (
 				443E65F71D8988510069CE43 /* LaunchScreen.storyboard in Resources */,
 				443E65F41D8988510069CE43 /* Assets.xcassets in Resources */,
+				443E66221D898B420069CE43 /* KDLG4737.mp4 in Resources */,
+				443E66201D898B420069CE43 /* FBHF9668.mp4 in Resources */,
+				443E66231D898B420069CE43 /* OAYF8471.mp4 in Resources */,
+				443E66211D898B420069CE43 /* JKUO2477.mp4 in Resources */,
 				443E65F21D8988500069CE43 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		443E65FB1D8988510069CE43 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		443E66061D8988510069CE43 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,39 +181,11 @@
 			files = (
 				443E65EF1D8988500069CE43 /* ViewController.swift in Sources */,
 				443E65ED1D8988500069CE43 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		443E65F91D8988510069CE43 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				443E66021D8988510069CE43 /* TransitionsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		443E66041D8988510069CE43 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				443E660D1D8988510069CE43 /* TransitionsUITests.swift in Sources */,
+				448A476B1D8C245500AF1F43 /* movietransitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		443E65FF1D8988510069CE43 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 443E65E81D8988500069CE43 /* Transitions */;
-			targetProxy = 443E65FE1D8988510069CE43 /* PBXContainerItemProxy */;
-		};
-		443E660A1D8988510069CE43 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 443E65E81D8988500069CE43 /* Transitions */;
-			targetProxy = 443E66091D8988510069CE43 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		443E65F01D8988500069CE43 /* Main.storyboard */ = {
@@ -419,52 +314,6 @@
 			};
 			name = Release;
 		};
-		443E66151D8988510069CE43 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TransitionsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.germanpereyra.TransitionsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transitions.app/Transitions";
-			};
-			name = Debug;
-		};
-		443E66161D8988510069CE43 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TransitionsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.germanpereyra.TransitionsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transitions.app/Transitions";
-			};
-			name = Release;
-		};
-		443E66181D8988510069CE43 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TransitionsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.germanpereyra.TransitionsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Transitions;
-			};
-			name = Debug;
-		};
-		443E66191D8988510069CE43 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = TransitionsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.germanpereyra.TransitionsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Transitions;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -484,22 +333,7 @@
 				443E66131D8988510069CE43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		443E66141D8988510069CE43 /* Build configuration list for PBXNativeTarget "TransitionsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				443E66151D8988510069CE43 /* Debug */,
-				443E66161D8988510069CE43 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		443E66171D8988510069CE43 /* Build configuration list for PBXNativeTarget "TransitionsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				443E66181D8988510069CE43 /* Debug */,
-				443E66191D8988510069CE43 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

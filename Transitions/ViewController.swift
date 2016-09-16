@@ -7,12 +7,27 @@
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        test().start { (url) in
+            if let url = url {
+                let videoURL = url
+                let player = AVPlayer(URL: videoURL)
+                let playerViewController = AVPlayerViewController()
+                playerViewController.player = player
+                self.presentViewController(playerViewController, animated: true) {
+                    playerViewController.player!.play()
+                }
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
