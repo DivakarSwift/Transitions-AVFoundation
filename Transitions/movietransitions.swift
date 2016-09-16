@@ -42,13 +42,15 @@ let exportFilePath:NSString = "~/Documents/TransitionsMovie.mov"
 
 let movieFilePaths = [
     "FBHF9668",
+    "FBIX1897",
     "JKUO2477",
-    "KDLG4737",
-    "OAYF8471"
+    "RBDI3723",
+    "XMQG0194"
 ]
 
 // Convert the file paths into URLS after expanding any tildes in the path
 let urls = movieFilePaths.map({ (filePath) -> NSURL in
+    
     return NSBundle.mainBundle().URLForResource(filePath, withExtension: "mp4")!
 })
 
