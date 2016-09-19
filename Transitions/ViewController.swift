@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
-        test().start { (url) in
+        MovieTransitions().start { (url) in
             if let url = url {
                 let videoURL = url
                 let player = AVPlayer(URL: videoURL)

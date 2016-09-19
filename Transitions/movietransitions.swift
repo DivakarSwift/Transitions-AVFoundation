@@ -17,6 +17,8 @@ import Foundation
 
 import AVFoundation
 
+
+class MovieTransitions {
 // Set the transition duration time to two seconds.
 let transDuration = CMTimeMake(2, 1)
 
@@ -40,7 +42,7 @@ let exportFilePath:NSString = "~/Documents/TransitionsMovie.mov"
 // Create the list of paths to movie files that generated movie will transition between.
 // The movies need to not have any copy protection.
 
-let movieFilePaths = [
+static let movieFilePaths = [
     "FBHF9668",
     "FBIX1897",
     "JKUO2477",
@@ -49,7 +51,7 @@ let movieFilePaths = [
 ]
 
 // Convert the file paths into URLS after expanding any tildes in the path
-let urls = movieFilePaths.map({ (filePath) -> NSURL in
+static let urls = movieFilePaths.map({ (filePath) -> NSURL in
     
     return NSBundle.mainBundle().URLForResource(filePath, withExtension: "mp4")!
 })
@@ -77,6 +79,10 @@ func buildCompositionTracks(composition: AVMutableComposition,
     for (var i = 0 ; i < assetsWithVideoTracks.count ; ++i) {
         let trackIndex = i % 2
         let currentTrack = videoTracks[trackIndex]
+        
+        print("\(assetsWithVideoTracks[i].tracksWithMediaType(AVMediaTypeVideo)[0].naturalSize) \(currentTrack.naturalSize)")
+        
+        
         let assetTrack = assetsWithVideoTracks[i].tracksWithMediaType(AVMediaTypeVideo)[0] as! AVAssetTrack
         let timeRange = CMTimeRangeMake(kCMTimeZero, assetsWithVideoTracks[i].duration)
         do {
@@ -241,7 +247,6 @@ func makeExportSession(preset: String,
     return session!
 }
 
-class test {
     func start(completion: (NSURL?) -> Void) {
         // Now call the functions to do the preperation work for preparing a composition to export.
         // First create the tracks needed for the composition.
